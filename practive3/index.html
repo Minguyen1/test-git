@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Danh sách sản phẩm</h1>
+        <ul class="tab">
+            <li class="tab-item active" onclick="changeProductList('trend', this)">Phổ biến</li>
+            <li class="tab-item" onclick="changeProductList('new', this)">Mới nhất</li>
+            <li class="tab-item" onclick="changeProductList('best-sell', this)">Bán chạy</li>
+        </ul>
+
+        <div id="trend" class="animation">
+            <ul class="product-list">
+                <li><img src="./images/6ts24s007-pp022-m-3 (1).webp" alt=""></li>
+                <li><img src="./images/6ts24s007-pp022-m-3.webp" alt=""></li>
+                <li><img src="./images/6ts24s007-pp022-m-4.webp" alt=""></li>
+                <li><img src="./images/6ts24s007-pp022-m-5.webp" alt=""></li>
+                <li><img src="./images/6ts24s008-sy234-m-1-u.webp" alt=""></li>
+                <li><img src="./images/6ts24s008-sy234-m-3.webp" alt=""></li>
+                <li><img src="./images/6ts24s008-sy234-m-4.webp" alt=""></li>
+                <li><img src="./images/6ts24s008-sy234-m-5.webp" alt=""></li>
+            </ul>
+        </div>
+        <div id="new" class="animation">
+            <ul class="product-list">
+                <li><img src="./images/6ts24s007-pp022-m-3 (1).webp" alt=""></li>
+                <li><img src="./images/6ts24s008-sy234-m-4.webp" alt=""></li>
+                <li><img src="./images/6ts24s007-pp022-m-4.webp" alt=""></li>
+                <li><img src="./images/6ts24s008-sy234-m-1-u.webp" alt=""></li>
+                <li><img src="./images/6ts24s007-pp022-m-5.webp" alt=""></li>
+                <li><img src="./images/6ts24s008-sy234-m-3.webp" alt=""></li>
+                <li><img src="./images/6ts24s007-pp022-m-3.webp" alt=""></li>
+                <li><img src="./images/6ts24s008-sy234-m-5.webp" alt=""></li>
+            </ul>
+        </div>
+        <div id="best-sell" class="animation">
+            <ul class="product-list">
+                <li><img src="./images/6ts24s008-sy234-m-5.webp" alt=""></li>
+                <li><img src="./images/6ts24s007-pp022-m-3.webp" alt=""></li>
+                <li><img src="./images/6ts24s008-sy234-m-3.webp" alt=""></li>
+                <li><img src="./images/6ts24s007-pp022-m-5.webp" alt=""></li>
+                <li><img src="./images/6ts24s008-sy234-m-1-u.webp" alt=""></li>
+                <li><img src="./images/6ts24s007-pp022-m-4.webp" alt=""></li>
+                <li><img src="./images/6ts24s008-sy234-m-4.webp" alt=""></li>
+                <li><img src="./images/6ts24s007-pp022-m-3 (1).webp" alt=""></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./product.js"></script>
+</body>
+</html>
